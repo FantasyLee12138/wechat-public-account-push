@@ -15,6 +15,8 @@ const USER_CONFIG = {
 
   PROVINCE: '江苏',
   CITY: '南京',
+  earthyLoveWords: true,
+  horoscope: true,
 
   USERS: [
     {
@@ -25,15 +27,15 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'hXHOjBR6_w-DE1_XwW3e1MSwEeEdJ3vgyYzVoU5DMIE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '12-21',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '乖乖', year: '2000', date: '12-26',
+          type: '*生日', name: '乖乖', year: '2000', date: '11-26',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李宣怡', year: '2000', date: '12-21',
+          type: '生日', name: '乖乖', year: '2000', date: '12-21',
         },
         {
           type: '节日', name: '纪念日', year: '2022', date: '10-28',
